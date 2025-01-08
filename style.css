@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Rubik+Vinyl', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(234, 233, 216, 0.906);
+    color:rgb(58, 3, 3)
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+    width: 65px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}     
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    width: auto;
+    margin: 24px 0;
+    border-radius: 12px;
+    padding: 38px;
+    background-image: url('music-player-2951399_1280.jpg');
+   
+}
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color:rgba(0, 0, 0, 0.906);
+    display: flex;
+    font-display: flex;
+    bottom: 20px;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    
+} 
+.icons{
+    margin: 10px;
+    color: rgb(253, 253, 253);
+    border-radius: 30px;
+    size: 1.5rem;
+}
+.icons i{
+    cursor: pointer;
+    size: 100px;
+    font-size: 30px;
+}
+#myProgressBar{
+    width: 85vw;
+    height: 70px;
+    cursor: pointer;
+}
+.strongItemcontainer{
+    margin-top: 80px;
+}
+.songItems{
+    height: 90px;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    margin: 10px 15px;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+.songItems img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin:0 10px;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
